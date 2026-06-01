@@ -15,7 +15,7 @@ class Task:
         self.updated_at = datetime.now().isoformat(sep=' ', timespec='seconds')
 
     def update_task(self):
-        self.updated_at =datetime.now().isoformat(sep=' ', timespec='seconds')
+        self.updated_at = datetime.now().isoformat(sep=' ', timespec='seconds')
 
     def update_field(self, field_name, value):
         if hasattr(self, field_name):
